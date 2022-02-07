@@ -15,6 +15,6 @@
 
 .menubutton__line {
     width: 30px;
-    height: 2px;
-    background: white; 
+    height: 3px;
+    background: rgb(19, 12, 12); 
 }

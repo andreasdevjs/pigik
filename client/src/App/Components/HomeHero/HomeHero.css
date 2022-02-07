@@ -10,7 +10,7 @@
   height: 0;
   border-style: solid;
   border-width: 20px 20px 0 20px;
-  border-color: rgb(44, 45, 48) transparent transparent transparent;
+  border-color: #ecf2f7 transparent transparent transparent;
   left: 50%;
   transform: translateX(-50%) translateY(100%);
 }

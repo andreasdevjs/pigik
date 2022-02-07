@@ -3,7 +3,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
 
-import setAuthToken from '../Helpers/setAuthToken';
+// import setAuthToken from '../Helpers/setAuthToken';
 import rootReducer from './Reducers/index.reducer';
 
 const initialState = {};

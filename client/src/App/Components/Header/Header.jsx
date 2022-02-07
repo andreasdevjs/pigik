@@ -1,17 +1,16 @@
 import React from 'react';
-import { Link as ReachLink } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { closeMainMenu } from '../../Redux/Actions/menu.actions';
 
-import { Box, Heading, Image, Link, Button, Drawer, DrawerBody, DrawerFooter, DrawerHeader, DrawerOverlay, DrawerContent, DrawerCloseButton } from '@chakra-ui/react';
+import { Box, Image, Button, Drawer, DrawerBody, DrawerFooter, DrawerHeader, DrawerOverlay, DrawerContent, DrawerCloseButton } from '@chakra-ui/react';
 import DrawerToggleButton from '../DrawerToggleButton/DrawerToggleButton.jsx';
 
-import SatsLogo from '../../Assets/Images/Satoshi_regular_elipse.svg';
+import Logo from '../../Assets/Images/pigik-logo.png';
 
 const Header = ({ menu, closeMainMenu}) => {
   return (
-    <Box display='flex' alignItems='center' bg="rgb(44, 45, 48)" textAlign="left" paddingX={5} paddingY={4} color='white'>
-      <Image width='20px' src={SatsLogo} alt='Satoshis symbol' />
+    <Box display='flex' alignItems='center' textAlign="left" p={5} bg="#ecf2f7">
+      <Image width='80px' src={Logo} alt='Pigik Logo' />
       <Box marginLeft='auto'>
         <DrawerToggleButton />
       </Box>
