@@ -11,7 +11,8 @@ const Header = ({ menu, closeMainMenu}) => {
   return (
     <Box display='flex' alignItems='center' textAlign="left" p={5} bg="#ecf2f7">
       <Image width='80px' src={Logo} alt='Pigik Logo' />
-      <Box marginLeft='auto'>
+      <Box marginLeft='auto' display='flex'>
+        <Button colorScheme='blue' size='xs' marginRight={3}>Para empresas</Button>
         <DrawerToggleButton />
       </Box>
       <Drawer
